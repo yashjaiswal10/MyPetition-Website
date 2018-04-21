@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create New Petition</title>
+    <meta charset="utf-8">
+
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    < <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New Petition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+    <meta name="author" content="FREEHTML5.CO" />
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/icomoon.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/superfish.css">
+    <link rel="stylesheet" href="/css/navbaryash.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.stellar.min.js"></script>
+    <script  type="text/javascript" src="/js/hoverIntent.js"></script>
+    <script type="text/javascript" src="/js/superfish.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="/js/respond.min.js"></script>
+    <link rel="stylesheet"   href="/assets/css/main.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body style="background-image: url('http://hddesktopwallpapers.in/wp-content/uploads/2015/06/Plain-Wallpapers-HD-A10.jpg')">
+
+
+<div id="fh5co-wrapper">
+    <div id="fh5co-page">
+
+        <div id="fh5co-header">
+            <header id="fh5co-header-section">
+                <div class="container">
+                    <div class="nav-header">
+                        <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                        <h1 id="fh5co-logo"><a href="/homepage"><font size="6px">MYPETITION</font></a></h1>
+                        <!-- START #fh5co-menu-wrap -->
+                        <nav id="fh5co-menu-wrap" role="navigation">
+                            <ul class="sf-menu" id="fh5co-primary-menu">
+                                <li><a href="/homepage">Home</a></li>
+
+
+                                <li><a href="/petitions">Petitions</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
+
+
+                                <%if(!currentUser){%>
+                                <li><a href="/login">Login</a></li>
+                                <li><a href="/signup">Signup</a></li>
+                                <%}else {%>
+                                <li><a><span style="color: whitesmoke" class="glyphicon glyphicon-user" ><%=currentUser.username%></span></a></li>
+                                <li><a href="/logout">Logout</a></li>
+                                <%}%>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+
+<div class="container " style="color:#bfbfbf;padding-top: 150px">
+    <h1>Create a Petition</h1>
+    <p  style="width:70%">
+        Create a powerful online petition in just minutes. Our system is flexible, customizable, and easy to use. <br>Best of all, it's free!
+
+        Start by filling out this form, and in a few minutes you'll be ready to collect thousands of signatures.
+    </p>
+    <form action="/petitions" method="post">
+        <div class="form-group" style="width: 70%">
+
+            <h3>Petition Title</h3>
+            <div class="form-group" style="background-color: white">
+                <input class="form-control"  type="text" name="title" placeholder="Title" required>
+            </div>
+            <div class="form-group">
+                <h3>Description</h3>
+                <textarea  class="form-control"  style="background-color: white;height: 200px" placeholder="Full Information" name="description" required></textarea>
+            </div>
+            <h3>Image Url</h3>
+            <div class="form-group" style="background-color: white">
+
+                <input class="form-control" type="text" name="image" placeholder="image url" required>
+           </div>
+
+            <div class="form-group">
+                <label for="sel1"><h3 style="color: #d9d9d9">Submit to</h3></label>
+                <select class="form-control" name="sub" id="sel1" required>
+                    <option value="200">Director</option>
+                    <option value="150">Registrar</option>
+                    <option value="100">Warden</option>
+                    <option value="75">Sub-Warden</option>
+                    <option value="50">Supervisor</option>
+
+                </select>
+            </div>
+
+        <button class="btn btn-success" style="margin-top:10px;padding:10px 40px;">Publish</button>
+    </form>
+</div>
+        <footer>
+            <div id="container" style="margin-top: 10px">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center">
+                            <p class="fh5co-social-icons">
+
+                                <a href=" https://twitter.com/mypetitionorg" style="color: honeydew"><i class="icon-twitter2"></i></a>
+                                <a href=" https://www.facebook.com/mypetitionorg/" style="color: honeydew"><i class="icon-facebook2"></i></a>
+                                <a href=" https://www.instagram.com/mypetitionorg/" style="color: honeydew"><i class="icon-instagram"></i></a>
+                                <a href="https://mypetitionorg@gmail.com" style="color: honeydew"><i class="icon-mail"></i></a>
+                                <a href="https://www.youtube.com/channel/UCIJ6xKuLDf5hffqdDb-RJ1A" style="color: honeydew"><i class="icon-youtube"></i></a>
+                            </p>
+                            <p style="color:honeydew">Copyright 2018 &copy <a href="/homepage" style="color: #009900">Mypetition</a>. All Rights Reserved. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</div>
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+
+</body>
+
+
+</html>
