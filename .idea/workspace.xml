@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2885547c-db3f-4f00-86e8-7cd2112c7e13" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/mail.js" afterPath="$PROJECT_DIR$/mail.js" />
-      <change beforePath="$PROJECT_DIR$/models/petition.js" afterPath="$PROJECT_DIR$/models/petition.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change beforePath="$PROJECT_DIR$/routes/petition.js" afterPath="$PROJECT_DIR$/routes/petition.js" />
-      <change beforePath="$PROJECT_DIR$/views/contact.ejs" afterPath="$PROJECT_DIR$/views/contact.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/front.ejs" afterPath="$PROJECT_DIR$/views/front.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/login.ejs" afterPath="$PROJECT_DIR$/views/login.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/new.ejs" afterPath="$PROJECT_DIR$/views/new.ejs" />
       <change beforePath="$PROJECT_DIR$/views/petitions.ejs" afterPath="$PROJECT_DIR$/views/petitions.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/show.ejs" afterPath="$PROJECT_DIR$/views/show.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/show1.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/signup.ejs" afterPath="$PROJECT_DIR$/views/signup.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/new.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
@@ -99,7 +84,7 @@
       <file leaf-file-name="front.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/front.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
+            <state relative-caret-position="-2177">
               <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -118,13 +103,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="petitions.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="petitions.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/petitions.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="142" column="98" lean-forward="false" selection-start-line="142" selection-start-column="98" selection-end-line="142" selection-end-column="98" />
+            <state relative-caret-position="309">
+              <caret line="148" column="115" lean-forward="false" selection-start-line="148" selection-start-column="115" selection-end-line="148" selection-end-column="115" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#4;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,8 +185,8 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/front.ejs" />
         <option value="$PROJECT_DIR$/views/contact.ejs" />
-        <option value="$PROJECT_DIR$/views/petitions.ejs" />
         <option value="$PROJECT_DIR$/views/new.ejs" />
+        <option value="$PROJECT_DIR$/views/petitions.ejs" />
       </list>
     </option>
   </component>
@@ -214,7 +205,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="908" />
@@ -354,22 +345,23 @@
       <workItem from="1525975092410" duration="4000" />
       <workItem from="1525983501628" duration="994000" />
       <workItem from="1527868565030" duration="3668000" />
-      <workItem from="1527872784457" duration="845000" />
+      <workItem from="1527872784457" duration="1419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193557000" />
+    <option name="totallyTimeSpent" value="194131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14145234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16792738" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -619,32 +611,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/front.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contact.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="159" column="93" lean-forward="false" selection-start-line="159" selection-start-column="93" selection-end-line="159" selection-end-column="93" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/petitions.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="142" column="98" lean-forward="false" selection-start-line="142" selection-start-column="98" selection-end-line="142" selection-end-column="98" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -664,6 +636,32 @@
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2177">
+          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/petitions.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="148" column="115" lean-forward="false" selection-start-line="148" selection-start-column="115" selection-end-line="148" selection-end-column="115" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#4;n#p#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
