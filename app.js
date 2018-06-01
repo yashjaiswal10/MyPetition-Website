@@ -52,8 +52,8 @@ app.use(petitionRoutes);
 
 
 
-app.listen(process.env.PORT||8000 ,function () {
+app.listen(process.env.PORT||2000 ,function () {
 
- 
+
     console.log("server started");
 });

@@ -9,6 +9,7 @@ var path=require("path");
 
 var config=JSON.parse(fs.readFileSync("package.json"));
 var nodemailer=require("nodemailer");
+var emailCheck = require('email-check');
 
 
 //middleware
@@ -38,6 +39,7 @@ router.get("/contact",function (req,res) {
 });
 
 router.get("/homepage",function (req,res) {
+
     petition.find({},function (err,all){
         if(err) {
             console.log("hi");
@@ -76,7 +78,7 @@ router.post("/contact/message",function (req,res) {
 
         });
 
-        console.log("fyjfgyug");
+        // console.log("fyjfgyug");
         let HelperOptions={
             from:email,
             to:'geniousyashjaiswal@gmail.com',
@@ -128,7 +130,7 @@ router.post("/signup",function (req,res) {
             return res.render("login.ejs");
         }
         passport.authenticate("local")(req,res,function(){
-            res.redirect("/new");
+            res.redirect("/homepage");
         });
     });
 });

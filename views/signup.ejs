@@ -23,13 +23,14 @@
         <div style="width:30%;margin:20px auto">
             <form action="/signup" method="post">
                 <div class="form-group">
-                    <input class="form-control" name="username" type ="text" placeholder="Username">
+                    <input class="form-control" name="username" type ="text" placeholder="Username" required>
                 </div>
                 <div class="form-group">
-                    <input class="form-control" name="email" type ="email" placeholder="email">
+                    <input class="form-control" name="email" type ="email" placeholder="email" required>
                 </div>
                 <div class="form-group">
-                    <input class="form-control" name="password" type ="password" placeholder="password">
+                    <input class="form-control" name="password" type ="password" placeholder="password" required>
+                    <!--pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"-->
                 </div>
                 <div class="form-group" >
                     <button class="btn btn-large btn-primary btn-block">Signup!</button>

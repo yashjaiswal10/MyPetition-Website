@@ -13,12 +13,7 @@ var petitionSchema=new mongoose.Schema({
     },
     sub:String,
 
-    comments:[
-        {
-            type:mongoose.Schema.Types.ObjectId,
-            ref:"Comment"
-        }
-    ]
+
 });
 
 module.exports=mongoose.model("petition",petitionSchema);

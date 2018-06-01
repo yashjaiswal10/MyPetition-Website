@@ -14,10 +14,7 @@ var nodemailer=require("nodemailer");
      // service:'gmail',
     secure:true,
     port:465,
-    auth:{
-        user:'geniousyashjaiswal@gmail.com',
-        pass:'xyz9621729272'
-    }
+
     //,
     // tls:{
     //     rejectUnauthorized:false
