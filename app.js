@@ -13,9 +13,9 @@ var petition=require("./models/petition");
 
 
 var mongoose=require("mongoose");
-// mongoose.connect('mongodb://yash:12345@ds247439.mlab.com:47439/petitions');
+mongoose.connect('mongodb://yash:12345@ds247439.mlab.com:47439/petitions');
 
-mongoose.connect('mongodb://localhost/petition');
+// mongoose.connect('mongodb://localhost/petition');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("design"));
 // app.use(express.static("views"));
