@@ -95,7 +95,7 @@
                     </div>
                     <div class="col col2" >
                         <h3><%=petition[i].title%></h3>
-                        <%=petition[i].description%>
+                        <%=petition[i].description.substring(0,400)%>
                         <a href="/<%=petition[i]._id%>" class="button">Read More</a>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                     <div class="col col2">
                         <h3><%=petition[i].title%></h3>
 
-                        <%=petition[i].description%>
+                        <%=petition[i].description.substring(0,400)%>
 
                         <a href="/<%=petition[i]._id%>" class="button">Read More</a>
                     </div>
@@ -126,24 +126,26 @@
 <%}%>
 <%}%>
 
-
-        <footer>
-            <div id="container">
-                <div class="container">
-                    <div class="row" >
-                        <div class="col-md-6 col-md-offset-3 text-center" style="margin: 0 220px">
-                           <center> <p class="fh5co-social-icons" style="margin-top: 20px;">
-                                <a href=" https://twitter.com/mypetitionorg" style="color: steelblue"><i class="icon-twitter2"></i></a>
-                                <a href=" https://www.facebook.com/mypetitionorg/" style="color: steelblue"><i class="icon-facebook2"></i></a>
-                                <a href=" https://www.instagram.com/mypetitionorg/" style="color: steelblue"><i class="icon-instagram"></i></a>
-                                <a href="https://mypetitionorg@gmail.com" style="color: steelblue"><i class="icon-mail"></i></a>
-                                <a href="https://www.youtube.com/channel/UCIJ6xKuLDf5hffqdDb-RJ1A" style="color: steelblue"><i class="icon-youtube"></i></a>
-                            </p></center>
-                            <p>Copyright 2018 &copy <a href="/homepage" style="color: #009900">Mypetition</a>. All Rights Reserved. </p>                        </div>
-                    </div>
+<footer>
+    <center>
+    <div id="footer" style="background-color: #5cb85c">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center" >
+                    <p class="fh5co-social-icons">
+                        <a href=" https://twitter.com/mypetitionorg" ><i class="icon-twitter2"></i></a>
+                        <a href=" https://www.facebook.com/mypetitionorg/" ><i class="icon-facebook2"></i></a>
+                        <a href=" https://www.instagram.com/mypetitionorg/" ><i class="icon-instagram"></i></a>
+                        <a href="https://mypetitionorg@gmail.com" ><i class="icon-mail"></i></a>
+                        <a href="https://www.youtube.com/channel/UCIJ6xKuLDf5hffqdDb-RJ1A" ><i class="icon-youtube"></i></a>
+                    </p>
+                    <p>Copyright 2018 &copy  <a href="/homepage">Mypetition</a>. All Rights Reserved. </i> </p>
                 </div>
             </div>
-        </footer>
+        </div>
+    </div>
+</center>
+</footer>
 
 
     </div>
