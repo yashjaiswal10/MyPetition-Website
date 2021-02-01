@@ -13,7 +13,16 @@ var petition=require("./models/petition");
 
 
 var mongoose=require("mongoose");
-mongoose.connect('mongodb://yash:12345@ds247439.mlab.com:47439/petitions');
+// mongoose.connect('mongodb://yash:12345@ds247439.mlab.com:47439/petitions');
+mongoose.connect("mongodb+srv://yash:1234@cluster0.9dc2m.mongodb.net/mypetition?retryWrites=true&w=majority"
+    ,
+    {
+    useNewUrlParser: true ,
+    useUnifiedTopology:true
+   }
+);
+const db=mongoose.connection;
+db.once("open",()=>{console.log("server started")});
 
 // mongoose.connect('mongodb://localhost/petition');
 app.use(bodyParser.urlencoded({extended:true}));
