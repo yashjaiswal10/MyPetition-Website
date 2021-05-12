@@ -16,7 +16,7 @@
     "express-session": "^1.17.0",
     "find": "^0.2.9",
     "mongoose": "^5.9.9",
-    "nodemailer": "^4.7.0",
+    "nodemailer": "^6.4.16",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1",
